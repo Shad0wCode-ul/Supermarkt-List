@@ -32,7 +32,7 @@ if (!fs.existsSync('.git')) {
 const requiredFiles = [
     'index.js',
     'package.json',
-    'public/index.html',
+    'index.html',
     'railway.json',
     'Dockerfile'
 ];
