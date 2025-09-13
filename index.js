@@ -16,7 +16,7 @@ const clients = new Set();
 // Middleware
 app.use(cors());
 app.use(express.json());
-app.use(express.static('.'));
+app.use(express.static('public'));
 
 // Ensure data directory exists
 async function ensureDataDirectory() {
@@ -233,7 +233,7 @@ app.delete('/api/items/clear-completed', async (req, res) => {
 
 // Serve the main HTML file
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public/index.html'));
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 // Start server
