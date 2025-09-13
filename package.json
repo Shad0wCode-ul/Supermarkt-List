@@ -1,0 +1,33 @@
+{
+  "name": "supermarkt-list",
+  "version": "1.0.0",
+  "description": "A web-based supermarket shopping list application that allows users to add, edit, delete, and check off items from any device",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "echo 'No build step required'",
+    "deploy": "node deploy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shopping",
+    "list",
+    "supermarket",
+    "web",
+    "express",
+    "javascript"
+  ],
+  "author": "Shad0wCode-ul",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
